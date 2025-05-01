@@ -1,0 +1,47 @@
+2025-05-01 00:58:53,181 - INFO - generated new fontManager
+2025-05-01 00:59:02,648 - INFO - Início da detecção com YOLOv5
+2025-05-01 00:59:02,652 - INFO - Processamento finalizado.
+2025-05-01 01:01:59,715 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:01:59,723 - INFO - Processamento finalizado.
+2025-05-01 01:06:53,204 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:06:53,208 - INFO - Processamento finalizado.
+2025-05-01 01:09:48,617 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:09:48,808 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:09:48,841 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:09:48,842 - INFO - imagem1.jpeg - Tempo: 0.22s
+2025-05-01 01:09:49,078 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 01:09:49,088 - INFO - imagem2.jpeg - Tempo: 0.25s
+2025-05-01 01:09:49,091 - INFO - Processamento finalizado.
+2025-05-01 01:17:29,649 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:17:29,884 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:17:29,915 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:17:29,915 - INFO - imagem1.jpeg - Tempo: 0.27s
+2025-05-01 01:17:30,119 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 01:17:30,137 - INFO - imagem2.jpeg - Tempo: 0.22s
+2025-05-01 01:17:30,140 - INFO - Processamento finalizado.
+2025-05-01 01:27:40,172 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:27:40,366 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:27:40,395 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:27:40,395 - INFO - imagem1.jpeg - Tempo: 0.22s
+2025-05-01 01:27:40,561 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 01:27:40,587 - INFO - imagem2.jpeg - Tempo: 0.19s
+2025-05-01 01:27:40,591 - INFO - Processamento finalizado.
+2025-05-01 01:40:07,733 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:40:07,983 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:40:08,015 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:40:08,015 - INFO - imagem1.jpeg - Tempo: 0.28s
+2025-05-01 01:40:08,174 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 01:40:08,190 - INFO - imagem2.jpeg - Tempo: 0.17s
+2025-05-01 01:40:08,193 - INFO - Processamento finalizado.
+2025-05-01 01:45:17,576 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:45:17,776 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:45:17,809 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:45:17,809 - INFO - imagem1.jpeg - Tempo: 0.23s
+2025-05-01 01:45:17,812 - INFO - Processamento finalizado.
+2025-05-01 01:47:34,838 - INFO - Início da detecção com YOLOv5
+2025-05-01 01:47:35,049 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 01:47:35,079 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 01:47:35,079 - INFO - imagem1.jpeg - Tempo: 0.24s
+2025-05-01 01:47:38,181 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 01:47:38,191 - INFO - imagem2.jpeg - Tempo: 3.11s
+2025-05-01 01:47:38,195 - INFO - Processamento finalizado.

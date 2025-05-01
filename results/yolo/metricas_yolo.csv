@@ -1,0 +1,3 @@
+imagem,status,objetos_detectados,tempo_processamento_s
+imagem1.jpeg,sucesso,1,0.24
+imagem2.jpeg,falha,0,3.11
