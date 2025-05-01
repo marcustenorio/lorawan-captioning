@@ -16,7 +16,8 @@ logging.basicConfig(
 # Diretórios
 DATA_DIR = Path('../../data')
 RESULTS_DIR = Path('../../results/yolo')
-RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+CROPS_DIR = RESULTS_DIR / 'crops'  # Diretório para salvar os crops
+CROPS_DIR.mkdir(parents=True, exist_ok=True)  # Criar o diretório se não existir
 IMAGES = list(DATA_DIR.glob('*.jpeg'))
 
 # Carregar modelo YOLOv5
@@ -53,11 +54,23 @@ def detect_image(image_path):
         # Salva imagem com boxes
         results.save(save_dir=str(RESULTS_DIR))
 
-        # Métricas por objeto
+        # Gerar crops e salvar
         for i, row in detections.iterrows():
+            # Coordenadas dos bounding boxes
+            x1, y1, x2, y2 = int(row['xmin']), int(row['ymin']), int(row['xmax']), int(row['ymax'])
+            
+            # Realizar o crop da imagem
+            crop = img[y1:y2, x1:x2]
+
+            # Salvar o crop com um nome único
+            crop_filename = CROPS_DIR / f"{image_path.stem}_crop_{i}.jpeg"
+            cv2.imwrite(str(crop_filename), crop)
+            logging.info(f"{image_path.name} - Crop {i} salvo como {crop_filename}")
+
+            # Métricas por objeto
             category = row['name']
-            width = row['xmax'] - row['xmin']
-            height = row['ymax'] - row['ymin']
+            width = x2 - x1
+            height = y2 - y1
             area = width * height
             logging.info(f"{image_path.name} - Categoria: {category} - Tamanho: {area:.1f} px²")
 
@@ -97,4 +110,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
