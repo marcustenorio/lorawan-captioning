@@ -95,3 +95,23 @@
 2025-05-01 18:34:59,282 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
 2025-05-01 18:34:59,292 - INFO - imagem2.jpeg - Tempo: 0.14s
 2025-05-01 18:34:59,295 - INFO - Processamento finalizado.
+2025-05-01 18:56:55,766 - INFO - Início da detecção com YOLOv5
+2025-05-01 18:56:55,926 - INFO - imagem1.jpeg - Status: sucesso - Objetos: 1
+2025-05-01 18:56:55,953 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331170.0 px²
+2025-05-01 18:56:55,954 - INFO - imagem1.jpeg - Crop 0 salvo como ../../results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-01 18:56:55,954 - INFO - imagem1.jpeg - Tempo: 0.19s
+2025-05-01 18:56:56,076 - INFO - imagem3.jpeg - Status: sucesso - Objetos: 2
+2025-05-01 18:56:56,095 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759500.0 px²
+2025-05-01 18:56:56,096 - INFO - imagem3.jpeg - Crop 0 salvo como ../../results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-01 18:56:56,096 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62212.0 px²
+2025-05-01 18:56:56,096 - INFO - imagem3.jpeg - Crop 1 salvo como ../../results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-01 18:56:56,097 - INFO - imagem3.jpeg - Tempo: 0.14s
+2025-05-01 18:56:56,228 - INFO - imagem2.jpeg - Status: falha - Objetos: 0
+2025-05-01 18:56:56,241 - INFO - imagem2.jpeg - Tempo: 0.14s
+2025-05-01 18:56:56,244 - INFO - Processamento finalizado.
+2025-05-01 20:39:11 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-01 20:39:11 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-01 20:39:12 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-01 20:39:12 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-01 20:39:12 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-01 20:39:12 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
