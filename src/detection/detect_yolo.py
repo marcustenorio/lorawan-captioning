@@ -27,7 +27,6 @@ VALIDATION_DIR = RESULTS_DIR / 'validacoes'
 VALIDATION_DIR.mkdir(parents=True, exist_ok=True)
 
 
-
 # Carrega o modelo
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 model.conf = 0.2
