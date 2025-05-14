@@ -7,14 +7,14 @@ from PIL import Image
 from pathlib import Path
 import cv2
 
-# 🔧 Carrega um modelo ResNet50 pré-treinado
+# Carrega um modelo ResNet50 pré-treinado
 resnet_model = models.resnet50(pretrained=True)
 resnet_model.eval()
 
-# 🎯 Inicializa o GradCAM na última camada convolucional ('layer4')
+# Inicializa o GradCAM na última camada convolucional ('layer4')
 cam_extractor = GradCAM(model=resnet_model, target_layer="layer4", input_shape=(1, 3, 224, 224))
 
-# 🧰 Preprocessamento da imagem para ResNet50
+# Preprocessamento da imagem para ResNet50
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),

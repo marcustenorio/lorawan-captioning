@@ -1,0 +1,17 @@
+[
+  {
+    "crop":"imagem1_crop_0.jpeg",
+    "imagem_original":"imagem1_crop.jpg",
+    "caption":"a yellow flower with a purple border"
+  },
+  {
+    "crop":"imagem3_crop_0.jpeg",
+    "imagem_original":"imagem3_crop.jpg",
+    "caption":"a white flower with yellow center"
+  },
+  {
+    "crop":"imagem3_crop_1.jpeg",
+    "imagem_original":"imagem3_crop.jpg",
+    "caption":"a plant with a pink background and a blue border"
+  }
+]

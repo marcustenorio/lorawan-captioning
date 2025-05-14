@@ -49,7 +49,7 @@ def detect_image(image_path):
 
         results.save(save_dir=str(RESULTS_DIR))
         
-       # 🔍 Gera mapa de explicabilidade (usando ResNet)
+       # Gera mapa de explicabilidade (usando ResNet)
         explic_dir = RESULTS_DIR / 'explicabilidade'
         explic_dir.mkdir(parents=True, exist_ok=True)
 
