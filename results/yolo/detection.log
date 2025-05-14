@@ -187,3 +187,123 @@
 2025-05-14 16:11:48 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
 2025-05-14 16:11:48 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
 2025-05-14 16:11:48 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-14 19:47:06 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-14 19:47:06 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-14 19:47:09 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-14 19:47:09 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-14 19:47:09 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-14 19:47:09 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-14 19:49:44 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-14 19:49:44 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-14 19:49:46 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-14 19:49:46 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-14 19:49:46 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-14 19:49:46 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Crop 0 salvo como results/yolo/crops/IMG_0818-2_crop_0.jpeg
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Crop 1 salvo como results/yolo/crops/IMG_0818-2_crop_1.jpeg
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Crop 2 salvo como results/yolo/crops/IMG_0818-2_crop_2.jpeg
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 259752.2 px²
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 3112995.7 px²
+2025-05-14 19:55:48 - INFO - IMG_0818-2.jpg - Categoria: sports ball - Tamanho: 44519.4 px²
+2025-05-14 19:55:49 - INFO - IMG_3708.jpg - Crop 0 salvo como results/yolo/crops/IMG_3708_crop_0.jpeg
+2025-05-14 19:55:49 - INFO - IMG_3708.jpg - Categoria: person - Tamanho: 1192757.9 px²
+2025-05-14 19:55:50 - INFO - IMG_3420.jpg - Crop 0 salvo como results/yolo/crops/IMG_3420_crop_0.jpeg
+2025-05-14 19:55:50 - INFO - IMG_3420.jpg - Crop 1 salvo como results/yolo/crops/IMG_3420_crop_1.jpeg
+2025-05-14 19:55:50 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 219464.6 px²
+2025-05-14 19:55:50 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 1804484.4 px²
+2025-05-14 19:55:51 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-14 19:55:51 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-14 19:55:52 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-14 19:55:52 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-14 19:55:52 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-14 19:55:52 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Crop 0 salvo como results/yolo/crops/IMG_0818-2_crop_0.jpeg
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Crop 1 salvo como results/yolo/crops/IMG_0818-2_crop_1.jpeg
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Crop 2 salvo como results/yolo/crops/IMG_0818-2_crop_2.jpeg
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 259752.2 px²
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 3112995.7 px²
+2025-05-14 19:59:08 - INFO - IMG_0818-2.jpg - Categoria: sports ball - Tamanho: 44519.4 px²
+2025-05-14 19:59:10 - INFO - IMG_3708.jpg - Crop 0 salvo como results/yolo/crops/IMG_3708_crop_0.jpeg
+2025-05-14 19:59:10 - INFO - IMG_3708.jpg - Categoria: person - Tamanho: 1192757.9 px²
+2025-05-14 19:59:10 - INFO - IMG_3420.jpg - Crop 0 salvo como results/yolo/crops/IMG_3420_crop_0.jpeg
+2025-05-14 19:59:10 - INFO - IMG_3420.jpg - Crop 1 salvo como results/yolo/crops/IMG_3420_crop_1.jpeg
+2025-05-14 19:59:10 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 219464.6 px²
+2025-05-14 19:59:10 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 1804484.4 px²
+2025-05-14 19:59:12 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-14 19:59:12 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-14 19:59:13 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-14 19:59:13 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-14 19:59:13 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-14 19:59:13 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 0 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_0.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 1 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_1.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 2 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_2.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 3 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_3.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 4 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_4.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 5 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_5.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 6 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_6.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 7 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_7.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Crop 8 salvo como results/yolo/crops/a6df9c64-bda4-4b4b-a522-096f1ed6eb44_crop_8.jpeg
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: person - Tamanho: 77134.7 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: person - Tamanho: 59570.0 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: person - Tamanho: 73430.4 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: person - Tamanho: 54868.9 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: person - Tamanho: 19052.7 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: backpack - Tamanho: 6260.9 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: backpack - Tamanho: 22033.4 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: backpack - Tamanho: 10633.2 px²
+2025-05-14 20:21:13 - INFO - a6df9c64-bda4-4b4b-a522-096f1ed6eb44.jpg - Categoria: backpack - Tamanho: 12084.9 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 0 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_0.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 1 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_1.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 2 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_2.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 3 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_3.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 4 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_4.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 5 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_5.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 6 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_6.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Crop 7 salvo como results/yolo/crops/6d743026-d6d2-479f-aaaf-7f0e5062f293_crop_7.jpeg
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 8538.3 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 11881.7 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 4476.1 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: cow - Tamanho: 190880.1 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 900.5 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 7159.7 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 4094.8 px²
+2025-05-14 20:21:16 - INFO - 6d743026-d6d2-479f-aaaf-7f0e5062f293.jpg - Categoria: person - Tamanho: 15981.2 px²
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Crop 0 salvo como results/yolo/crops/IMG_0818-2_crop_0.jpeg
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Crop 1 salvo como results/yolo/crops/IMG_0818-2_crop_1.jpeg
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Crop 2 salvo como results/yolo/crops/IMG_0818-2_crop_2.jpeg
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 259752.2 px²
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Categoria: person - Tamanho: 3112995.7 px²
+2025-05-14 20:21:33 - INFO - IMG_0818-2.jpg - Categoria: sports ball - Tamanho: 44519.4 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 0 salvo como results/yolo/crops/100_1867_crop_0.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 1 salvo como results/yolo/crops/100_1867_crop_1.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 2 salvo como results/yolo/crops/100_1867_crop_2.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 3 salvo como results/yolo/crops/100_1867_crop_3.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 4 salvo como results/yolo/crops/100_1867_crop_4.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Crop 5 salvo como results/yolo/crops/100_1867_crop_5.jpeg
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: person - Tamanho: 418661.6 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: person - Tamanho: 204771.4 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: person - Tamanho: 6820.5 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: horse - Tamanho: 943754.3 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: handbag - Tamanho: 82042.7 px²
+2025-05-14 20:21:45 - INFO - 100_1867.jpg - Categoria: backpack - Tamanho: 117801.5 px²
+2025-05-14 20:21:56 - INFO - IMG_1502.jpg - Crop 0 salvo como results/yolo/crops/IMG_1502_crop_0.jpeg
+2025-05-14 20:21:56 - INFO - IMG_1502.jpg - Crop 1 salvo como results/yolo/crops/IMG_1502_crop_1.jpeg
+2025-05-14 20:21:56 - INFO - IMG_1502.jpg - Categoria: bear - Tamanho: 1280555.9 px²
+2025-05-14 20:21:56 - INFO - IMG_1502.jpg - Categoria: bear - Tamanho: 279954.2 px²
+2025-05-14 20:21:58 - INFO - 7A39F18B-FBA3-4F96-93DE-8735F63E4B67.jpg - Crop 0 salvo como results/yolo/crops/7A39F18B-FBA3-4F96-93DE-8735F63E4B67_crop_0.jpeg
+2025-05-14 20:21:58 - INFO - 7A39F18B-FBA3-4F96-93DE-8735F63E4B67.jpg - Crop 1 salvo como results/yolo/crops/7A39F18B-FBA3-4F96-93DE-8735F63E4B67_crop_1.jpeg
+2025-05-14 20:21:58 - INFO - 7A39F18B-FBA3-4F96-93DE-8735F63E4B67.jpg - Categoria: person - Tamanho: 12943.7 px²
+2025-05-14 20:21:58 - INFO - 7A39F18B-FBA3-4F96-93DE-8735F63E4B67.jpg - Categoria: person - Tamanho: 632170.4 px²
+2025-05-14 20:21:59 - INFO - IMG_3708.jpg - Crop 0 salvo como results/yolo/crops/IMG_3708_crop_0.jpeg
+2025-05-14 20:21:59 - INFO - IMG_3708.jpg - Categoria: person - Tamanho: 1192757.9 px²
+2025-05-14 20:22:00 - INFO - IMG_3420.jpg - Crop 0 salvo como results/yolo/crops/IMG_3420_crop_0.jpeg
+2025-05-14 20:22:00 - INFO - IMG_3420.jpg - Crop 1 salvo como results/yolo/crops/IMG_3420_crop_1.jpeg
+2025-05-14 20:22:00 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 219464.6 px²
+2025-05-14 20:22:00 - INFO - IMG_3420.jpg - Categoria: person - Tamanho: 1804484.4 px²
+2025-05-14 20:22:02 - INFO - imagem1.jpeg - Crop 0 salvo como results/yolo/crops/imagem1_crop_0.jpeg
+2025-05-14 20:22:02 - INFO - imagem1.jpeg - Categoria: teddy bear - Tamanho: 331091.2 px²
+2025-05-14 20:22:03 - INFO - imagem3.jpeg - Crop 0 salvo como results/yolo/crops/imagem3_crop_0.jpeg
+2025-05-14 20:22:03 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
+2025-05-14 20:22:03 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
+2025-05-14 20:22:03 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
