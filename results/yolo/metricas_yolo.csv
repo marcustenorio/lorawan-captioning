@@ -1,4 +1,4 @@
 imagem,status,objetos_detectados,tempo_processamento_s
-imagem1.jpeg,sucesso,1,0.31
-imagem3.jpeg,sucesso,2,0.43
-imagem2.jpeg,falha,0,0.27
+imagem1.jpeg,sucesso,1,7.71
+imagem3.jpeg,sucesso,2,1.31
+imagem2.jpeg,falha,0,0.66

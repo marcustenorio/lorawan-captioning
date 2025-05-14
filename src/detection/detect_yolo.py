@@ -11,7 +11,7 @@ from src.utils.crops import save_crops
 from src.utils.logger import log_object_metrics, setup_logging
 from src.utils.metrics import log_image_metrics, metrics
 from src.utils.visual import show_validation
-
+from src.utils.explain import gerar_mapa_explicativo_resnet
 
 # Inicializar logging
 setup_logging()
@@ -48,6 +48,17 @@ def detect_image(image_path):
         status = 'sucesso' if num_detections > 0 else 'falha'
 
         results.save(save_dir=str(RESULTS_DIR))
+        
+       # 🔍 Gera mapa de explicabilidade (usando ResNet)
+        explic_dir = RESULTS_DIR / 'explicabilidade'
+        explic_dir.mkdir(parents=True, exist_ok=True)
+
+        try:
+            gerar_mapa_explicativo_resnet(img, image_path.name, explic_dir)
+        except Exception as e:
+            print(f"Erro ao gerar explicabilidade: {e}")
+
+
 
         if num_detections > 0:
             save_crops(img, detections, image_path, CROPS_DIR)
