@@ -1,4 +1,4 @@
-name: 🤖 YOLO + BLIP Pipeline
+name: LoraWan Pipeline
 
 on:
   workflow_dispatch:  # permite execução manual
@@ -15,34 +15,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout do repositório
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: 🐍 Configurar Python
+      - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 📦 Instalar dependências do projeto
+      - name: Instalar dependências do projeto
         run: |
           pip install torch torchvision
           pip install opencv-python matplotlib pandas pillow tqdm transformers
 
-      - name: 🧠 Clonar YOLOv5 e instalar requirements
+      - name: Clonar YOLOv5 e instalar requirements
         run: |
           git clone https://github.com/ultralytics/yolov5.git
           pip install -r yolov5/requirements.txt
 
-      - name: 🔍 Etapa 1 - Detecção com YOLOv5
+      - name: Etapa 1 - Detecção com YOLOv5
         run: python detect_yolo.py
 
-      - name: 🔤 Etapa 2 - Captioning com BLIP
+      - name: Etapa 2 - Captioning com BLIP
         run: python src/captioning/generate_blip_captions.py
 
-      - name: 💾 Commit de resultados (opcional)
+      - name: Commit de resultados (opcional)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Pipeline automática: YOLO + BLIP"
+          commit_message: "Pipeline automática: YOLO + BLIP"
           file_pattern: |
             results/yolo/**
             results/blip/captions/*
