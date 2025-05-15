@@ -2,7 +2,7 @@
 
 Este projeto explora o uso de visão computacional e IA para simular a transmissão de imagens em redes de baixa largura de banda (LoRaWAN), utilizando captioning e reconstrução com modelos generativos.
 
-## 🔧 Pipeline Principal
+## Pipeline Principal
 1. YOLOv5 para detecção de objetos
 2. BLIP para geração de descrições semânticas (captioning)
 3. Simulação de envio de texto via LoRaWAN (NS-3)

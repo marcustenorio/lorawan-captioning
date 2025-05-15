@@ -34,7 +34,7 @@ jobs:
           pip install -r yolov5/requirements.txt
 
       - name: Etapa 1 - Detecção com YOLOv5
-        run: python detect_yolo.py
+        run: python  -m src.detection.detect_yolo
 
       - name: Etapa 2 - Captioning com BLIP
         run: python src/captioning/generate_blip_captions.py
