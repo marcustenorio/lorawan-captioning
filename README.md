@@ -9,13 +9,13 @@ Este projeto explora o uso de visão computacional e IA para simular a transmiss
 4. Reconstrução da imagem via Stable Diffusion
 5. Avaliação de fidelidade com CLIP
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 - `src/`: scripts organizados por módulo
 - `notebooks/`: experimentos exploratórios
 - `results/`: outputs e reconstruções
 - `data/`: imagens utilizadas nos testes
 
-## 🚀 Requisitos
+## Requisitos
 Instale as dependências:
 ```bash
 pip install -r requirements.txt
