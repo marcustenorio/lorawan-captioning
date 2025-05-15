@@ -40,10 +40,7 @@ jobs:
       - name: Etapa 2 - Captioning com BLIP
         run: python src/captioning/generate_blip_captions.py
 
-      - name: Commit de resultados (opcional)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Pipeline automática: YOLO + BLIP"
-          file_pattern: |
-            results/yolo/**
-            results/blip/captions/*
+      - name: Visualizar CSV gerado
+        run: |
+          echo "Conteúdo de results/blip/captions/captions_crops.csv:"
+          cat results/blip/captions/captions_crops.csv
