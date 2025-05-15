@@ -27,6 +27,7 @@ jobs:
         run: |
           pip install torch torchvision
           pip install opencv-python matplotlib pandas pillow tqdm transformers
+          pip install torchcam
 
       - name: Clonar YOLOv5 e instalar requirements
         run: |
