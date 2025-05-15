@@ -19,4 +19,3 @@ Este projeto explora o uso de visão computacional e IA para simular a transmiss
 Instale as dependências:
 ```bash
 pip install -r requirements.txt
-
