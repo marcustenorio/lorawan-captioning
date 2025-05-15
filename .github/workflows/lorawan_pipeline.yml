@@ -40,7 +40,8 @@ jobs:
       - name: Etapa 2 - Captioning com BLIP
         run: python src/captioning/generate_blip_captions.py
 
-      - name: Visualizar CSV gerado
+      - name: Visualizar CSV e JSON gerado
         run: |
           echo "Conteúdo de results/blip/captions/captions_crops.csv:"
           cat results/blip/captions/captions_crops.csv
+          cat results/blip/captions/captions_crops.json
