@@ -1,14 +1,14 @@
 name: LoraWan Pipeline
 
 on:
-  workflow_dispatch:  # permite execução manual
+  workflow_dispatch: # permite execução manual
   push:
     paths:
-      - 'detect_yolo.py'
-      - 'src/**'
-      - 'data/**'
-      - 'results/yolo/crops/**'
-      - '.github/workflows/yolo_blip_pipeline.yml'
+      - "detect_yolo.py"
+      - "src/**"
+      - "data/**"
+      - "results/yolo/crops/**"
+      - ".github/workflows/lorawan_pipeline.yml"
 
 jobs:
   pipeline:
@@ -21,7 +21,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Instalar dependências do projeto
         run: |
@@ -46,4 +46,3 @@ jobs:
           file_pattern: |
             results/yolo/**
             results/blip/captions/*
-
