@@ -1,7 +1,7 @@
 name: LoraWan Pipeline
 
 on:
-  workflow_dispatch: # permite execução manual
+  workflow_dispatch:  # permite execução manual
   push:
     paths:
       - "detect_yolo.py"
@@ -29,19 +29,32 @@ jobs:
           pip install opencv-python matplotlib pandas pillow tqdm transformers
           pip install torchcam
 
-      - name: Clonar YOLOv5 e instalar requirements
+      - name: Clonar YOLOv5 e instalar requisitos
         run: |
           git clone https://github.com/ultralytics/yolov5.git
           pip install -r yolov5/requirements.txt
 
-      - name: Etapa 1 - Detecção com YOLOv5
+      - name: Etapa 1 – Detecção com YOLOv5 + Explicabilidade
         run: python -m src.detection.detect_yolo
 
-      - name: Etapa 2 - Captioning com BLIP
+      - name: Etapa 2 – Captioning dos crops com BLIP
         run: python src/captioning/generate_blip_captions.py
 
-      - name: Visualizar CSV e JSON gerado
+      - name: Etapa 3 – Captioning da imagem completa com BLIP
+        run: python src/captioning/generate_blip_full_image_captions.py
+
+      - name: Visualizar CSVs gerados
         run: |
-          echo "Conteúdo de results/blip/captions/captions_crops.csv:"
+          echo "Captions por objeto (crops):"
           cat results/blip/captions/captions_crops.csv
-          cat results/blip/captions/captions_crops.json
+          echo "Captions por imagem completa:"
+          cat results/blip/full_image/captions_full_image.csv
+
+      - name: Commit automático dos resultados (opcional)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "YOLO + BLIP (crops e full) + explicabilidade"
+          file_pattern: |
+            results/yolo/**
+            results/blip/captions/*
+            results/blip/full_image/*
