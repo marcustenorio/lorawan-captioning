@@ -23,11 +23,15 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Instalar dependências do projeto
+      - name: Instalar dependências do projeto (com diffusers)
         run: |
+          pip install --upgrade pip
           pip install torch torchvision
-          pip install opencv-python matplotlib pandas pillow tqdm transformers
-          pip install torchcam
+          pip install opencv-python matplotlib pandas pillow tqdm transformers torchcam
+          pip install accelerate safetensors
+          pip install diffusers
+          pip install git+https://github.com/openai/CLIP.git
+
 
       - name: Clonar YOLOv5 e instalar requisitos
         run: |
