@@ -43,4 +43,4 @@ df = pd.DataFrame(captions_data)
 df.to_csv(OUTPUT_DIR / "captions_full_image.csv", index=False)
 df.to_json(OUTPUT_DIR / "captions_full_image.json", orient="records", indent=2)
 
-print(f"✅ Captions salvas em: {OUTPUT_DIR}")
+print(f"Captions salvas em: {OUTPUT_DIR}")
