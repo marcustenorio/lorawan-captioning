@@ -307,3 +307,15 @@
 2025-05-14 20:22:03 - INFO - imagem3.jpeg - Crop 1 salvo como results/yolo/crops/imagem3_crop_1.jpeg
 2025-05-14 20:22:03 - INFO - imagem3.jpeg - Categoria: potted plant - Tamanho: 1759698.7 px²
 2025-05-14 20:22:03 - INFO - imagem3.jpeg - Categoria: vase - Tamanho: 62341.9 px²
+2025-05-17 01:16:23 - INFO - cavalo.jpg - Crop 0 salvo como results/yolo/crops/cavalo_crop_0.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Crop 1 salvo como results/yolo/crops/cavalo_crop_1.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Crop 2 salvo como results/yolo/crops/cavalo_crop_2.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Crop 3 salvo como results/yolo/crops/cavalo_crop_3.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Crop 4 salvo como results/yolo/crops/cavalo_crop_4.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Crop 5 salvo como results/yolo/crops/cavalo_crop_5.jpeg
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: person - Tamanho: 418661.6 px²
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: person - Tamanho: 204771.4 px²
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: person - Tamanho: 6820.5 px²
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: horse - Tamanho: 943754.3 px²
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: handbag - Tamanho: 82042.7 px²
+2025-05-17 01:16:25 - INFO - cavalo.jpg - Categoria: backpack - Tamanho: 117801.5 px²

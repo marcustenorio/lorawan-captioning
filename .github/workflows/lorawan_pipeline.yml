@@ -64,3 +64,14 @@ jobs:
         run: |
           echo "Similaridade semântica entre imagens originais e reconstruídas:"
           cat results/reconstructions/clip_similarity.csv
+
+      - name: Commit automático dos resultados
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "YOLO + BLIP + Reconstrução + CLIP + Explicabilidade"
+          file_pattern: |
+            results/yolo/**
+            results/blip/captions/**
+            results/blip/full_image/**
+            results/reconstructions/**
+
