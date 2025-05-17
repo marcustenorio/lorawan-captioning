@@ -4,7 +4,16 @@ from diffusers import StableDiffusionPipeline
 import torch
 from tqdm import tqdm
 
-# 🔧 Configurações
+import os
+from huggingface_hub import login
+
+# Autentica com o token do GitHub Actions
+hf_token = os.getenv("HUGGINGFACE_TOKEN")
+if hf_token:
+    login(token=hf_token)
+
+
+# Configurações
 CSV_PATH = Path("results/blip/full_image/captions_full_image.csv")
 OUT_DIR = Path("results/reconstructions/from_caption")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -12,11 +21,10 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 # Carrega modelo de difusão
 pipe = StableDiffusionPipeline.from_pretrained(
     "runwayml/stable-diffusion-v1-5", 
-    torch_dtype=torch.float16,
-    revision="fp16"
+    torch_dtype=torch.float32
 ).to("cuda" if torch.cuda.is_available() else "cpu")
 
-# 📄 Lê os captions
+# Lê os captions
 df = pd.read_csv(CSV_PATH)
 
 print(f"Gerando imagens para {len(df)} descrições...")
