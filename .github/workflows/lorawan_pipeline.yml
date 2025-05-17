@@ -49,12 +49,3 @@ jobs:
           cat results/blip/captions/captions_crops.csv
           echo "Captions por imagem completa:"
           cat results/blip/full_image/captions_full_image.csv
-
-      - name: Commit automático dos resultados (opcional)
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "YOLO + BLIP (crops e full) + explicabilidade"
-          file_pattern: |
-            results/yolo/**
-            results/blip/captions/*
-            results/blip/full_image/*
