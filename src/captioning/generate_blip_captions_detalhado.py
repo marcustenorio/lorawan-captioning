@@ -19,7 +19,7 @@ model.eval()
 #  Carrega todos os crops
 crop_paths = sorted(list(CROPS_DIR.glob("*.jpg")) + list(CROPS_DIR.glob("*.JPG")) + list(CROPS_DIR.glob("*.png")) + list(CROPS_DIR.glob("*.jpeg")))
 
-print(f"Gerando descrições detalhadas para {len(image_paths)} crops...")
+print(f"Gerando descrições detalhadas para {len(crop_paths)} crops...")
 
 #  Resultados
 captions = []
