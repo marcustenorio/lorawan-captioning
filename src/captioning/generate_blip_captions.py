@@ -16,7 +16,7 @@ OUTPUT_DIR = Path("results/blip/captions")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Lista todos os crops válidos
-crop_paths = sorted(list(CROPS_DIR.glob("*.jpg")) + list(CROPS_DIR.glob("*.png")) + list(CROPS_DIR.glob("*.jpeg")))
+crop_paths = sorted(list(CROPS_DIR.glob("*.jpg")) + list(CROPS_DIR.glob("*.JPG")) + list(CROPS_DIR.glob("*.png")) + list(CROPS_DIR.glob("*.jpeg")))
 
 # Processa cada crop
 captions_data = []
