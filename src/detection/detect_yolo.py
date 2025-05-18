@@ -22,7 +22,7 @@ RESULTS_DIR = Path('results/yolo')
 CROPS_DIR = RESULTS_DIR / 'crops'
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 CROPS_DIR.mkdir(parents=True, exist_ok=True)
-IMAGES = list(DATA_DIR.glob('*.jpg')) + list(DATA_DIR.glob('*.jpeg')) + list(DATA_DIR.glob('*.png'))
+IMAGES =  list(DATA_DIR.glob('*.JPG')) + list(DATA_DIR.glob('*.jpg')) + list(DATA_DIR.glob('*.jpeg')) + list(DATA_DIR.glob('*.png'))
 VALIDATION_DIR = RESULTS_DIR / 'validacoes'
 VALIDATION_DIR.mkdir(parents=True, exist_ok=True)
 
