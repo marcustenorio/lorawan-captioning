@@ -12,7 +12,7 @@ if hf_token:
     login(token=hf_token)
 
 # 📁 Diretórios
-CSV_PATH = Path("results/blip/captions/captions_crops.csv")
+CSV_PATH = Path("results/blip/captions/captions_crops_detalhado.csv")
 OUT_DIR = Path("results/reconstructions/from_crops")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -33,9 +33,9 @@ for i, row in tqdm(df.iterrows(), total=len(df)):
 
     try:
         img = pipe(prompt).images[0]
-        img.save(OUT_DIR / f"reconstructed_crop_{crop_name}.png")
+        img.save(OUT_DIR / f"reconstructed_detalhado_crop_{crop_name}.png")
     except Exception as e:
         print(f"[Erro] {crop_name}: {e}")
 
-print(f"✅ Imagens geradas em: {OUT_DIR}")
+print(f"Imagens geradas em: {OUT_DIR}")
 

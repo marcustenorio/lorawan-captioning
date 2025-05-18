@@ -32,7 +32,6 @@ jobs:
           pip install diffusers
           pip install git+https://github.com/openai/CLIP.git
 
-
       - name: Clonar YOLOv5 e instalar requisitos
         run: |
           git clone https://github.com/ultralytics/yolov5.git
@@ -45,20 +44,23 @@ jobs:
         run: python src/captioning/generate_blip_captions.py
 
       - name: Etapa 3 – Captioning da imagem completa com BLIP
-        run: python src/captioning/generate_blip_full_image_captions.py
+        run: python src/captioning/generate_blip_full_image_captions_detalhado.py
 
-      - name: Etapa 4 – Reconstrução a partir dos captions (Stable Diffusion)
-        run: python src/reconstruction/generate_from_captions.py
+      #- name: Etapa 4 – Reconstrução a partir dos captions (Stable Diffusion)
+      #  run: python src/reconstruction/generate_from_captions.py
+
+      - name: Etapa 4 – Reconstrução a partir dos crops  (Stable Diffusion)
+        run: python src/reconstruction/generate_from_crops.py
 
       - name: Etapa 5 – Comparação semântica com CLIP
-        run: python src/reconstruction/compare_with_clip.py
+        run: python src/reconstruction/compare_crops_clip.py
 
-      - name: Visualizar CSVs gerados
-        run: |
-          echo "Captions por objeto (crops):"
-          cat results/blip/captions/captions_crops.csv
-          echo "Captions por imagem completa:"
-          cat results/blip/full_image/captions_full_image.csv
+      #- name: Visualizar CSVs gerados
+      #  run: |
+      #    echo "Captions por objeto (crops):"
+      #    cat results/blip/captions/captions_crops.csv
+      #    echo "Captions por imagem completa:"
+      #    cat results/blip/full_image/captions_full_image.csv
 
       - name: Visualizar similaridade CLIP
         run: |
