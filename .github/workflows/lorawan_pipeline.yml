@@ -41,7 +41,7 @@ jobs:
         run: python -m src.detection.detect_yolo
 
       - name: Etapa 2 – Captioning dos crops com BLIP
-        run: python src/captioning/generate_blip_captions.py
+        run: python src/captioning/generate_blip_captions_detalhado.py
 
       #- name: Etapa 3 – Captioning da imagem completa com BLIP
       #  run: python src/captioning/generate_blip_full_image_captions_detalhado.py
