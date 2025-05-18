@@ -24,7 +24,7 @@ print(f"Gerando descrições detalhadas para {len(crop_paths)} crops...")
 #  Resultados
 captions = []
 
-for img_path in tqdm(image_paths):
+for img_path in tqdm(crop_paths):
     try:
         image = Image.open(img_path).convert("RGB")
 
