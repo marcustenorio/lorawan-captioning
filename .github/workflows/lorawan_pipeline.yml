@@ -70,6 +70,7 @@ jobs:
         with:
           commit_message: "YOLO + BLIP + Reconstrução + CLIP + Explicabilidade"
           file_pattern: |
+            results/**
             results/yolo/**
             results/blip/captions/**
             results/blip/full_image/**
