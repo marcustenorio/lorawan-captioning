@@ -16,7 +16,7 @@ OUTPUT_DIR = Path("results/blip/full_image")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Lista imagens válidas
-image_paths = sorted(list(IMAGE_DIR.glob("*.JPG")) + sorted(list(IMAGE_DIR.glob("*.jpg")) + list(IMAGE_DIR.glob("*.jpeg")) + list(IMAGE_DIR.glob("*.png")))
+image_paths = sorted(list(IMAGE_DIR.glob("*.JPG")) + sorted(list(IMAGE_DIR.glob("*.jpg")) + list(IMAGE_DIR.glob("*.jpeg")) + list(IMAGE_DIR.glob("*.png"))))
 
 captions_data = []
 
