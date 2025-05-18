@@ -49,18 +49,11 @@ jobs:
       #- name: Etapa 4 – Reconstrução a partir dos captions (Stable Diffusion)
       #  run: python src/reconstruction/generate_from_captions.py
 
-      - name: Etapa 4 – Reconstrução a partir dos crops  (Stable Diffusion)
+      - name: Etapa 3 – Reconstrução a partir dos crops  (Stable Diffusion)
         run: python src/reconstruction/generate_from_crops.py
 
-      - name: Etapa 5 – Comparação semântica com CLIP
+      - name: Etapa 4 – Comparação semântica com CLIP
         run: python src/reconstruction/compare_crops_clip.py
-
-      #- name: Visualizar CSVs gerados
-      #  run: |
-      #    echo "Captions por objeto (crops):"
-      #    cat results/blip/captions/captions_crops.csv
-      #    echo "Captions por imagem completa:"
-      #    cat results/blip/full_image/captions_full_image.csv
 
       - name: Visualizar similaridade CLIP
         run: |
