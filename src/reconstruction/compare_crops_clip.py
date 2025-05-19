@@ -29,7 +29,7 @@ for i, row in tqdm(df.iterrows(), total=len(df)):
     try:
         crop_original_path = ORIGINAL_CROPS_DIR / nome_crop
         nome_base = Path(nome_crop).stem
-        crop_reconstruido_path = RECONSTRUCTED_CROPS_DIR / f"reconstructed_crop_{nome_base}.png"
+        crop_reconstruido_path = RECONSTRUCTED_CROPS_DIR / f"reconstructed_detalhado_crop_{nome_base}.png"
 
         if not crop_original_path.exists() or not crop_reconstruido_path.exists():
             print(f"[Aviso] Arquivo não encontrado: {nome_crop}")
