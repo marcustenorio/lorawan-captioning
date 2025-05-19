@@ -10,7 +10,7 @@ df = pd.read_csv(CSV)
 
 html = """
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <title>Comparação de Crops – Original vs. Reconstruído</title>
@@ -35,10 +35,11 @@ html = """
 
 for _, row in df.iterrows():
     crop = row["crop"]
+    print(f"Crop {crop}")
     caption = row["caption"]
     score = row["score_clip"]
-    crop_img = f"../../yolo/crops/{crop}"
-    recon_img = f"from_crops/reconstructed_crop_{Path(crop).stem}.png"
+    crop_img = f"../../results/yolo/crops/{crop}"
+    recon_img = f"../../results/reconstructions/from_crops/reconstructed_detalhado_crop_{Path(crop).stem}.png"
 
     html += f"""
     <tr>
