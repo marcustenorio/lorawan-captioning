@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comparação de Crops – Original vs. Reconstruído</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    td, th { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    img { max-width: 150px; max-height: 150px; }
+    th { background-color: #f4f4f4; }
+  </style>
+</head>
+<body>
+<h2>Comparação de Crops – Original × Reconstruído com Caption e Similaridade</h2>
+<table>
+  <tr>
+    <th>Crop Original</th>
+    <th>Caption</th>
+    <th>Reconstruído</th>
+    <th>Score CLIP</th>
+  </tr>
+
+    <tr>
+      <td><img src="../../yolo/crops/IMG_3708_crop_0.jpeg" alt="IMG_3708_crop_0.jpeg"></td>
+      <td>describe this object in detail, including its color, texture, shape, and any visible context.</td>
+      <td><img src="from_crops/reconstructed_crop_IMG_3708_crop_0.png" alt="recon_IMG_3708_crop_0.jpeg"></td>
+      <td><strong>0.4500</strong></td>
+    </tr>
+    
+</table>
+</body>
+</html>
