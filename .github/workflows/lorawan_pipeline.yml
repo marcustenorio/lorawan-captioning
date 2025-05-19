@@ -55,10 +55,12 @@ jobs:
       - name: Etapa 4 – Comparação semântica com CLIP
         run: python src/reconstruction/compare_crops_clip.py
 
-      - name: Visualizar similaridade CLIP
-        run: |
-          echo "Similaridade semântica entre imagens originais e reconstruídas:"
-          cat results/reconstructions/clip_similarity.csv
+      # - name: Visualizar similaridade CLIP
+      #   run: |
+      #    echo "Similaridade semântica entre imagens originais e reconstruídas:"
+      #    cat results/reconstructions/clip_similarity.csv
+      - name: Etapa 5 – Gerar visualização comparativa HTML dos crops
+        run: python src/reconstruction/generate_html_comparacao_crops.py
 
       - name: Commit automático dos resultados
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -70,4 +72,6 @@ jobs:
             results/blip/captions/**
             results/blip/full_image/**
             results/reconstructions/**
+            results/reconstructions/visual_comparacao_crops.html
+
 

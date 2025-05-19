@@ -19,3 +19,9 @@ Este projeto explora o uso de visão computacional e IA para simular a transmiss
 Instale as dependências:
 ```bash
 pip install -r requirements.txt
+
+## Visualização Comparativa (Crops)
+
+Veja lado a lado os crops originais, seus captions detalhados e as reconstruções com a pontuação de similaridade semântica (CLIP):
+
+[Ver HTML de comparação](results/reconstructions/visual_comparacao_crops.html)
