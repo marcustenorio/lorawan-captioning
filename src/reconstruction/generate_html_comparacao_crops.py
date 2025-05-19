@@ -44,13 +44,15 @@ for _, row in df.iterrows():
     score = row["score_clip"]
 
     # Nome base da imagem original
-    nome_base = crop.split("_crop_")[0]
+    nome_base = crop.split("_crop")[0]
     extensao = Path(crop).suffix  # .jpeg, .png...
 
+
     # Caminhos das imagens
-    original_img = f"../../data/{nome_base}{extensao}"
+    #original_img = f"../../data/{nome_base}{extensao.upper()}"
+    original_img = f"../../data/{nome_base}.JPG"
     crop_img = f"../../results/yolo/crops/{crop}"
-    recon_img = f"../../results/reconstructions/from_crops/reconstructed_crop_{Path(crop).stem}.png"
+    recon_img = f"../../results/reconstructions/from_crops/reconstructed_detalhado_crop_{Path(crop).stem}.png"
 
     html += f"""
     <tr>
