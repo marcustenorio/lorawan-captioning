@@ -64,4 +64,4 @@ for image_path in image_paths:
     save_path = OUT_DIR / f"{image_path.stem}_grafo_topologia.png"
     plt.savefig(save_path)
     plt.close()
-    print(f"✅ Grafo/topologia gerado: {save_path}")
+    print(f"Grafo/topologia gerado: {save_path}")
