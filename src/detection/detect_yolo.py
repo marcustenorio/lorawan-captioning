@@ -42,6 +42,7 @@ def detect_image(image_path):
         return
 
     try:
+        # REconhecendo os bounding box da imagem original
         results = model(img)
         detections = results.pandas().xyxy[0]
         num_detections = len(detections)
@@ -59,7 +60,7 @@ def detect_image(image_path):
             print(f"Erro ao gerar explicabilidade: {e}")
 
 
-
+        # Salvando os crops 
         if num_detections > 0:
             save_crops(img, detections, image_path, CROPS_DIR)
             log_object_metrics(image_path.name, detections)
