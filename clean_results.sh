@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🧹 Limpando arquivos gerados pelo pipeline (csv, json, png)..."
+echo "Limpando arquivos gerados pelo pipeline (csv, json, png)..."
 
 # Diretórios-alvo
 TARGET_DIRS=(
@@ -25,5 +25,5 @@ for dir in "${TARGET_DIRS[@]}"; do
   fi
 done
 
-echo "✅ Limpeza finalizada."
+echo "Limpeza finalizada."
 
