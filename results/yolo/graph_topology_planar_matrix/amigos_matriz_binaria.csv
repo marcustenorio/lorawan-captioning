@@ -1,0 +1,9 @@
+,A - Person,B - Person,C - Person,D - Person,E - Car,F - Car,G - Motorcycle,H - Car
+A - Person,0,1,1,1,0,0,0,0
+B - Person,1,0,0,1,0,1,1,0
+C - Person,1,0,0,1,1,0,1,0
+D - Person,1,1,1,0,0,0,1,0
+E - Car,0,0,1,0,0,1,1,1
+F - Car,0,1,0,0,1,0,1,1
+G - Motorcycle,0,1,1,1,1,1,0,1
+H - Car,0,0,0,0,1,1,1,0

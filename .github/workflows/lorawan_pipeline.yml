@@ -41,10 +41,13 @@ jobs:
         run: python -m src.detection.detect_yolo
 
       - name: Etapa 2 – Captioning dos crops com BLIP
-        run: python src/captioning/generate_blip_captions_detalhado.py
+        run: python src/captioning/generate_blip_full_image_captions.py
       
       - name: Etapa 3 – Gerar gráfico da topologia dos crops (grafo)
         run: python src/utils/topologia.py
+      
+      - name: Etapa 4 - Gerar a Matriz Binária e a multiplicação quadrática
+        run: python src/utils/grafo_plano_matrizbinaria.py
 
       #- name: Etapa 3 – Captioning da imagem completa com BLIP
       #  run: python src/captioning/generate_blip_full_image_captions_detalhado.py

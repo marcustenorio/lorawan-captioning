@@ -1,0 +1,33 @@
+Experimento: Balanço de Branco Manual
+
+Passo 1: Captura da Imagem
+- A foto foi tirada com o balanço de branco automático desligado, utilizando o app ProCam.
+- A cena inclui uma folha A4 branca no centro, com objetos coloridos ao redor.
+- A imagem original está no arquivo: whitebalance.jpeg
+
+Passo 2: Seleção da Região Branca
+- A região da folha usada para medir o branco médio foi definida manualmente no código.
+- As coordenadas da área branca em pixels foram: (x_min, y_min, x_max, y_max) = (936, 1080, 2360, 3152)
+
+Passo 3: Processamento em RGB
+- O código calculou o branco médio em RGB na região da folha.
+- Foram geradas 4 imagens com balanço de branco corrigido para os iluminantes padrão:
+  - imagem_balanco_D50.png
+  - imagem_balanco_D55.png
+  - imagem_balanco_D65.png
+  - imagem_balanco_D75.png
+
+Passo 4: Processamento em XYZ
+- A mesma região foi convertida para espaço XYZ.
+- O branco médio foi ajustado para os mesmos iluminantes no espaço XYZ.
+- Foram geradas 4 imagens adicionais:
+  - imagem_balanco_xyz_D50.png
+  - imagem_balanco_xyz_D55.png
+  - imagem_balanco_xyz_D65.png
+  - imagem_balanco_xyz_D75.png
+
+Passo 5: Código-Fonte
+- O script utilizado está salvo como: balanco_branco.py
+- Ele realiza todo o processamento descrito acima com base nas coordenadas fornecidas.
+
+Autor: Marcus Tenório

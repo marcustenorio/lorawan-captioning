@@ -1,0 +1,8 @@
+,A - Person,B - Person,C - Person,D - Person,E - Person,F - Person,G - Person
+A - Person,0,1,0,1,1,1,1
+B - Person,1,0,1,1,0,0,1
+C - Person,0,1,0,1,0,0,1
+D - Person,1,1,1,0,0,0,1
+E - Person,1,0,0,0,0,1,1
+F - Person,1,0,0,0,1,0,1
+G - Person,1,1,1,1,1,1,0
