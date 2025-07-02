@@ -6,7 +6,6 @@ import numpy as np
 from scipy.spatial import Delaunay
 import pandas as pd
 import string
-#Gerando o prompt 
 # Caminhos
 DATA_DIR = Path("data")
 OUT_DIR = Path("results/yolo/graph_topology_planar_matrix")

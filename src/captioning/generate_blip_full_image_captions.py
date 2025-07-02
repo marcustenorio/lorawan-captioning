@@ -4,6 +4,7 @@ from PIL import Image
 from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
+#Gerando o prompt 
 
 # Inicializa BLIP
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
