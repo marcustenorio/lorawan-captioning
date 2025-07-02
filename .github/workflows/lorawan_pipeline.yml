@@ -44,7 +44,7 @@ jobs:
         run: python src/captioning/generate_blip_full_image_captions.py
       
       - name: Etapa 3 – Gerar gráfico da topologia dos crops (grafo)
-        run: python src/utils/topologia.py
+        run: python src/utils/grafo_plano.py
       
       - name: Etapa 4 - Gerar a Matriz Binária e a multiplicação quadrática
         run: python src/utils/grafo_plano_matrizbinaria.py

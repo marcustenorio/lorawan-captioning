@@ -18,7 +18,7 @@ image_paths = sorted(list(DATA_DIR.glob("*.jpg")) + list(DATA_DIR.glob("*.jpeg")
 for image_path in image_paths:
     img = cv2.imread(str(image_path))
     if img is None:
-        print(f"[⚠️] Erro ao ler: {image_path.name}")
+        print(f"Erro ao ler: {image_path.name}")
         continue
 
     results = model(img)
