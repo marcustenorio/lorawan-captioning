@@ -1,7 +1,7 @@
 identificador,imagem,classe,confiança,centro_x,centro_y,area_px
 A,familia.jpeg,Person,0.9231,729.95,622.93,224827.15
-B,familia.jpeg,Person,0.9018,162.87,663.73,227596.22
-C,familia.jpeg,Person,0.8723,358.18,633.96,155297.89
+B,familia.jpeg,Person,0.9018,162.87,663.73,227596.15
+C,familia.jpeg,Person,0.8723,358.18,633.96,155297.92
 D,familia.jpeg,Person,0.8641,519.32,629.1,183011.51
 E,familia.jpeg,Person,0.6869,939.78,464.85,8872.74
 F,familia.jpeg,Person,0.6193,879.56,458.83,16887.6

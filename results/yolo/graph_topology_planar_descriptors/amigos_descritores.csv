@@ -1,0 +1,9 @@
+identificador,imagem,classe,confiança,centro_x,centro_y,area_px
+A,amigos.jpeg,Person,0.905,352.35,911.51,515702.81
+B,amigos.jpeg,Person,0.8671,595.3,574.93,194100.04
+C,amigos.jpeg,Person,0.7225,189.32,450.18,175697.43
+D,amigos.jpeg,Person,0.6482,444.28,611.79,254471.58
+E,amigos.jpeg,Car,0.5164,501.71,112.12,1254.96
+F,amigos.jpeg,Car,0.4873,561.87,105.23,1205.35
+G,amigos.jpeg,Motorcycle,0.4681,502.02,158.59,6597.39
+H,amigos.jpeg,Car,0.2358,502.82,155.39,7685.66
