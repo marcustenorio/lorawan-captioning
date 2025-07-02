@@ -40,6 +40,8 @@ def detect_image(image_path):
         print(f"Erro ao ler imagem: {image_path}")
         log_image_metrics(image_path.name, 'erro_leitura', 0, 0)
         return
+   
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
     try:
         # REconhecendo os bounding box da imagem original
